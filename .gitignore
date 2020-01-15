@@ -14,7 +14,6 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
 *.iws
 *.iml
 *.ipr
@@ -30,12 +29,10 @@ build/
 .vscode/
 
 ### 自定义 ###
-/src/test/
+src/test/
 /dist/
-/target/
-/.idea/
-/.mvn/
+.idea/
+.mvn/
 blog-svc.iml
-HELP.md
 mvnw
 mvnw.cmd

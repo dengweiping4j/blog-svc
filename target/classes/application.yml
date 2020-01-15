@@ -1,0 +1,9 @@
+server:
+    port: 8080 #配置启动端口
+spring:        #表示该配置直接为Spring容器负责处理
+    datasource:
+        url: jdbc:mysql://127.0.0.1:3306/blog?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+        driverClassName: com.mysql.cj.jdbc.Driver
+        username: root
+        password: 123456
+        type: com.alibaba.druid.pool.DruidDataSource
