@@ -22,10 +22,20 @@ target/
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
-/dist/
 /nbdist/
 /.nb-gradle/
 build/
 
 ### VS Code ###
 .vscode/
+
+### 自定义 ###
+/src/test/
+/dist/
+/target/
+/.idea/
+/.mvn/
+blog-svc.iml
+HELP.md
+mvnw
+mvnw.cmd
