@@ -1,7 +1,6 @@
-package com.blog;
+package com.blog.util;
 
 import javax.sql.DataSource;
-
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
