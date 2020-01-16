@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * 权限管理接口
+ * @author dengweiping
  */
 @RestController
 @RequestMapping("/auth")

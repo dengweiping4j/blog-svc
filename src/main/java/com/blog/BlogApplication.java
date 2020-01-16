@@ -11,10 +11,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
  * 2020-01-15 15:54
  */
 @SpringBootApplication
-@ComponentScan(basePackages = "com.blog") //扫描@Controller、@Service 注解；
-@EnableJpaRepositories(basePackages = "com.blog.repository") //扫描@Repository 注解；
-@EntityScan(basePackages = "com.blog.domain") //扫描@Entity 注解；
-
 public class BlogApplication {
 
     public static void main(String[] args) {
