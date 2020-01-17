@@ -22,5 +22,5 @@ public class UserInfo implements Serializable {
     @Column(name = "user_name")
     private String userName;
     @Column(name = "user_type")
-    private String userType;
+    private int userType;
 }

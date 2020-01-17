@@ -3,7 +3,10 @@ package com.blog.controller;
 import com.blog.domain.UserInfo;
 import com.blog.service.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.io.UnsupportedEncodingException;
 
 /**
  * 权限管理接口
@@ -21,9 +24,9 @@ public class AuthController {
      * @param userId
      * @return
      */
-    @RequestMapping(value = "getUserInfoByUserId/{userId}", method = RequestMethod.GET)
+    @RequestMapping(value = "userInfo/{userId}", method = RequestMethod.GET)
     @ResponseBody
-    public UserInfo getUserInfoByUserId(@PathVariable("userId") String userId) {
+    public UserInfo userInfo(@PathVariable("userId") String userId) {
         return authService.getUserInfo(userId);
     }
 }

@@ -14,4 +14,4 @@ spring: #表示该配置直接为Spring容器负责处理
         database-platform: org.hibernate.dialect.MySQL8Dialect
         show-sql: true
         hibernate:
-            ddl-auto: update
+            ddl-auto: validate
